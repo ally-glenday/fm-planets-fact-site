@@ -2,12 +2,14 @@ var text = document.getElementById("toggle-text");
 
 
 function overviewText(){
- text.innerHTML = "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.";
+ text.innerHTML = 'Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun&#8217;s planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.<span></span> Source: <a href="https://en.wikipedia.org/wiki/Mercury_(planet)">Wikipedia</a>';
 }
 
 function internalStructureText(){
- text.innerHTML = "Mercury appears to have a solid silicate crust and mantle overlying a solid, iron sulfide outer core layer, a deeper liquid core layer, and a solid inner core. The planet's density is the second highest in the Solar System at 5.427 g/cm3 , only slightly less than Earth's density.";  
+ text.innerHTML = 'Mercury appears to have a solid silicate crust and mantle overlying a solid, iron sulfide outer core layer, a deeper liquid core layer, and a solid inner core. The planet&#8217;s density is the second highest in the Solar System at 5.427 g/cm3, only slightly less than Earth&#8217;s density.<span></span> Source: <a href="https://en.wikipedia.org/wiki/Mercury_(planet)#Internal_structure">Wikipedia</a>';  
 }
+
 function surfaceGeologyText(){
-  text.innerHTML = "Mercury's surface is similar in appearance to that of the Moon, showing extensive mare-like plains and heavy cratering, indicating that it has been geologically inactive for billions of years. It is more heterogeneous than either Mars's or the Moon’s.";  
+  text.innerHTML = 'Much of the Venusian surface appears to have been shaped by volcanic activity. Venus has several times as many volcanoes as Earth, and it has 167 large volcanoes that are over 100 km (60 mi) across. The only volcanic complex of this size on Earth is the Big Island of Hawaii.<span></span> Source: <a href="https://en.wikipedia.org/wiki/Mercury_(planet)#Surface_geology">Wikipedia</a>';  
 }
+
