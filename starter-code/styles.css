@@ -48,5 +48,19 @@ table {
 }
 
 
-/* --------------- End of reset --------------- */ 
+/* --------------- End of reset -------------- */ 
+/* Colours */ 
+:root {
+    --main-bg-color: #070724;
+    --white: #FFFFFF;
+    --dark-grey-blue: #38384F;
+    --grey: #838391;
+    --aqua-blue: #419EBB;
+    --orange-gold: #EDA249;
+    --purple: #6f2ed6;
+    --red: #D14C32;
 
+  }
+
+
+  
