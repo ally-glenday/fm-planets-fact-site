@@ -15,5 +15,9 @@ function surfaceGeologyText(){
 
 function hamburgerMenu(){
   var menu = document.getElementById("menu");
-  menu.classList.toggle("display-block");
+  var hamburgerIcon = document.getElementById("hamburger-icon");
+  menu.classList.toggle("toggle-menu");
+  hamburgerIcon.classList.toggle("half-opacity");
 }
+
+

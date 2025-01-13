@@ -14,26 +14,29 @@
 </head>
 <body>
   <nav>
-    <p>The Planets</p>
-    <button onclick="hamburgerMenu()"></button>
+    <div class="flexbox-container-main-navbar">
+      <p>The Planets</p>
+      <button id="hamburger-icon" onclick="hamburgerMenu()"></button>
+    </div>
+    <hr>
     <ul class="display-none" id="menu">
-      <li>Mercury</li>
-      <li>Venus</li>
-      <li>Earth</li>
-      <li>Mars</li>
-      <li>Jupiter</li>
-      <li>Saturn</li>
-      <li>Uranus</li>
-      <li>Neptune</li>
+      <li><span class="planet-circle mercury"></span>Mercury</li>
+      <li><span class="planet-circle venus"></span>Venus</li>
+      <li><span class="planet-circle earth"></span>Earth</li>
+      <li><span class="planet-circle mars"></span>Mars</li>
+      <li><span class="planet-circle jupiter"></span>Jupiter</li>
+      <li><span class="planet-circle saturn"></span>Saturn</li>
+      <li><span class="planet-circle uranus"></span>Uranus</li>
+      <li><span class="planet-circle neptune"></span>Neptune</li>
     </ul>
-  </nav>
+  </nav>  
   <h1>Mercury</h1>
 
   <!-- Overview Content Start -->
   <button onclick="overviewText()">Overview</button>
   <button onclick="internalStructureText()">Internal Structure</button>
   <button onclick="surfaceGeologyText()">Surface Geology</button>
-  <p id="toggle-text">Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth. <span></span>Source: <a href="https://en.wikipedia.org/wiki/Mercury_(planet)">Wikipedia</a></p>
+  <p id="toggle-text">Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth. <span class="planet-circle"></span>Source: <a href="https://en.wikipedia.org/wiki/Mercury_(planet)">Wikipedia</a></p>
 
 
 

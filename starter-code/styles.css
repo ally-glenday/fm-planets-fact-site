@@ -91,23 +91,72 @@ body{
 /* ---- Navigation ---- */
 nav p{
     text-transform: uppercase;
+    font-size: 1.5em;
 }
 nav button{
     background-image: url("assets/icon-hamburger.svg");
     /* background-color: var(--grey); */
     background-size: contain;
     background-repeat: no-repeat;
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
 }
 
 .display-none{
     display: none;
 }
-.display-block{
+.toggle-menu{
     display: block;
 }
+.half-opacity{
+    opacity: .5;
+}
 
-nav ul{
+.flexbox-container-main-navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+hr{
+    border: .5px solid var(--dark-grey-blue);
+}
+nav ul li{
+    text-transform: uppercase;
+    background-image: url(assets/icon-chevron.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin: 5%;
+    border-bottom: solid var(--dark-grey-blue) .3px;
+}
 
+.planet-circle{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.mercury{
+    background-color: #DEF4FC;
+}
+.venus{
+    background-color: #F7CC7F;
+}
+.earth{
+    background-color: #545BFE;
+}
+.mars{
+    background-color: #FF6A45;
+}
+.jupiter{
+    background-color: #ECAD7A;
+}
+.saturn{
+    background-color: #FCCB6B;
+}
+.uranus{
+    background-color: #65F0D5;
+}
+.neptune{
+    background-color: #497EFA;
 }
