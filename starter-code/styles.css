@@ -121,13 +121,19 @@ hr{
     border: .5px solid var(--dark-grey-blue);
 }
 nav ul li{
+    display: flex;
+    align-items: center;
     text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: 500;
     background-image: url(assets/icon-chevron.svg);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
+    background-size: 5px;
+    background-position: 100% 50%;
     margin: 5%;
+    padding: 5% 0;
     border-bottom: solid var(--dark-grey-blue) .3px;
+    /* padding-bottom: 5%; */
 }
 
 .planet-circle{
@@ -135,6 +141,7 @@ nav ul li{
     width: 25px;
     border-radius: 50%;
     display: inline-block;
+    margin-right: 5%;
 }
 .mercury{
     background-color: #DEF4FC;
@@ -159,4 +166,9 @@ nav ul li{
 }
 .neptune{
     background-color: #497EFA;
+}
+
+.main-planet-img{
+    display: block;
+    margin: auto;
 }
