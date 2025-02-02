@@ -184,9 +184,12 @@ nav ul li{
     align-items: baseline;
     justify-content: space-between;
     margin: 0 5%;
-    /* padding: 3%; */
+   
 }
-.layer-buttons{
+input{
+    display: none;
+}
+label{
     text-transform: uppercase;
     font-size: .8rem;
     font-weight: 500;
@@ -196,8 +199,19 @@ nav ul li{
 }
 
 
-.planet-button-switcher{
-    /* border-bottom: #419EBB solid 5px;
-    color: var(--white); */
+
+.layer-buttons{
+    /* text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 500;
+    letter-spacing: 2.6px;
+    color: var(--grey);
+    padding: 5% 0; */
+}
+
+
+input:checked + label{
+    border-bottom: #419EBB solid 5px;
+    color: var(--white);
 }
 

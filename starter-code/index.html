@@ -38,8 +38,17 @@
     <button id="surface" class="layer-buttons" onclick="surfaceGeologyText()">Surface</button>
      -->
 
+    <input type="radio" name="planet-facts"  value="checked" id="overview" class="layer-buttons" onclick="overviewText()">
+    <label for="overview">Overview</label>
 
-     
+    <input type="radio" name="planet-facts" id="structure" class="layer-buttons" onclick="internalStructureText()">
+    <label for="structure">Structure</label>
+
+    <input type="radio" name="planet-facts" id="surface" class="layer-buttons" onclick="surfaceGeologyText()">
+    <label for="surface">Surface</label>
+    
+
+
    </div>
    <hr>
   <img src="assets/planet-mercury.svg" alt="Planet Mercury" class="main-planet-img" height="100" width="100">
