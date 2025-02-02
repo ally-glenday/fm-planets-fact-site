@@ -30,13 +30,16 @@
       <li><span class="planet-circle neptune"></span>Neptune</li>
     </ul>
   </nav>  
-  <h1>Mercury</h1>
-
+  <main>
   <!-- Overview Content Start -->
-  <button onclick="overviewText()">Overview</button>
-  <button onclick="internalStructureText()">Internal Structure</button>
-  <button onclick="surfaceGeologyText()">Surface Geology</button>
-  <img src="assets/planet-mercury.svg" alt="Planet Mercury" class="main-planet-img">
+   <div class="layer-buttons-flexbox">
+    <button class="layer-buttons" onclick="overviewText()">Overview</button>
+    <button class="layer-buttons" onclick="internalStructureText()">Structure</button>
+    <button class="layer-buttons" onclick="surfaceGeologyText()">Surface</button>
+   </div>
+   <hr>
+  <img src="assets/planet-mercury.svg" alt="Planet Mercury" class="main-planet-img" height="100" width="100">
+  <h1 class="planet-name-heading">Mercury</h1>
   <p id="toggle-text">Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth. <span class="planet-circle"></span>Source: <a href="https://en.wikipedia.org/wiki/Mercury_(planet)">Wikipedia</a></p>
 
 
@@ -52,6 +55,7 @@
 
   Average Temp.
   430°c
+</main>
 <script src="script.js"></script>
 </body>
 </html>
