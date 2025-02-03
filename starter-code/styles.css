@@ -214,10 +214,19 @@ input:checked + label{
     border-bottom: #419EBB solid 5px;
     color: var(--white);
 }
+#main-image-container{
+    /* position: relative; */
+}
 /* Targets main planet image */
 main img{
     padding: 20% 0;
+    /* position: absolute; */
 }
+#internal-structure{
+    /* position: absolute; */
+
+}
+
 h1{
     font-size: 2em;
     margin-bottom: 5%;
