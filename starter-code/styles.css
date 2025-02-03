@@ -245,6 +245,15 @@ main p span a{
     background-position: right;   
     padding-right: 5%; 
 }   
-main p span{
-    
+dl{
+    margin: 5%;
 }
+
+dl div{
+    display: flex;
+    justify-content: space-evenly;
+    border: var(--dark-grey-blue) 1px solid;
+}
+
+
+
