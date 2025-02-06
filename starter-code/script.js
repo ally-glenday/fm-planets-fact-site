@@ -3,12 +3,10 @@ var overview = document.getElementById("overview");
 var structure = document.getElementById("structure");
 var surface = document.getElementById("surface");
 var mercuryImage = document.getElementById("mercury-image");
+var mainImageContainer = document.getElementById("main-image-container");
 
-
-
-
-
-
+var mercuryGeologyImg = new Image(50, 50);
+mercuryGeologyImg.src = "assets/geology-mercury.png";
 
 
 /* Hamburger mobile menu */ 
@@ -37,7 +35,7 @@ function internalStructure(){
 
 function surfaceGeologyText(){
   text.innerHTML = 'Mercury&#8217;s surface is similar in appearance to that of the Moon, showing extensive mare-like plains and heavy cratering, indicating that it has been geologically inactive for billions of years. It is more heterogeneous than either Mars&#8217;s or the Moon&#8217;s.<span>Source: <a href="https://en.wikipedia.org/wiki/Mercury_(planet)#Surface_geology">Wikipedia</a></span>';  
-  mercuryImage.src = "assets/planet-mercury.svg";
+  mainImageContainer.appendChild(mercuryGeologyImg);
   // surface.classList.toggle("planet-button-switcher");
 }
 
