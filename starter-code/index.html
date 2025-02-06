@@ -41,7 +41,7 @@
     <input type="radio" name="planet-facts"  value="checked" id="overview" class="layer-buttons" onclick="overviewText()">
     <label for="overview">Overview</label>
 
-    <input type="radio" name="planet-facts" id="structure" class="layer-buttons" onclick="internalStructureText()">
+    <input type="radio" name="planet-facts" id="structure" class="layer-buttons" onclick="internalStructure()">
     <label for="structure">Structure</label>
 
     <input type="radio" name="planet-facts" id="surface" class="layer-buttons" onclick="surfaceGeologyText()">
@@ -50,9 +50,10 @@
    </div>
    <hr>
    <div id="main-image-container">
-    <img src="assets/planet-mercury.svg" alt="Planet Mercury" class="main-planet-img" height="100" width="100">
+    <img id="mercury-image" src="assets/planet-mercury.svg" alt="Planet Mercury" class="main-planet-img" height="100" width="100">
     <!-- <img id="internal-structure" src="assets/planet-mercury-internal.svg" alt="Planet Mercury internal structure" height="100" width="100">  -->
-   </div>
+    <!-- <img src="assets/geology-mercury.png" alt="Mercury geology" height="398" width="326"> -->
+  </div>
   <h1 class="planet-name-heading">Mercury</h1>
   <p id="toggle-text">Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.<span>Source: <a href="https://en.wikipedia.org/wiki/Mercury_(planet)">Wikipedia</a></span></p>
   

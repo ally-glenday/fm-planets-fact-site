@@ -172,8 +172,8 @@ nav ul li{
 }
 
 .main-planet-img{
-    display: block;
-    margin: auto;
+    /* display: block;
+    margin: auto; */
 }
 .planet-name-heading{
    text-align: center;
@@ -218,13 +218,15 @@ input:checked + label{
     /* position: relative; */
 }
 /* Targets main planet image */
-main img{
-    padding: 20% 0;
-    /* position: absolute; */
+#mercury-image{
+    /* position: absolute;
+    left: 50%;
+    transform: translateX(-50%); */
 }
 #internal-structure{
-    /* position: absolute; */
-
+    /* position: absolute;
+    left: 50%;
+    transform: translateX(-50%); */
 }
 
 h1{
